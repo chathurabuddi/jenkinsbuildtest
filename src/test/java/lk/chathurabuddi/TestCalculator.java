@@ -16,5 +16,6 @@ public class TestCalculator {
         Assert.assertEquals(5.0,new Calculator().add(1.5,3.5));
         Assert.assertEquals(5.0,new Calculator().add(6.0,-1.0));
         Assert.assertEquals(5.0,new Calculator().add(7.0,-2.0));
+        Assert.assertEquals(5.0,new Calculator().add(8.0,-2.0));
     }
 }
